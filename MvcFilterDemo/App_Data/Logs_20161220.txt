@@ -6,3 +6,5 @@
 引发当前异常的方法：System.Web.Mvc.ActionResult Throw()
 堆栈信息：在 MvcFilterDemo.Controllers.HomeController.Throw() 位置 C:\Users\HeroWong\Documents\Visual Studio 2015\Projects\MvcAuth\MvcFilterDemo\Controllers\HomeController.cs:行号 30
 
+
+----------------------结束--------------------------
