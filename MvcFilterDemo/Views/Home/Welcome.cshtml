@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+</head>
+<body>
+    <a href="/">首页</a>
+    <p>@(ViewBag.OnActionExecuting)</p>
+    <p>@(ViewBag.OnActionExecuted)</p>
+    你好@(ViewBag.Name)，欢迎您的到来。@(DateTime.Now.ToString())
+    <p>@(ViewBag.OnResultExecuting)</p>
+    <p>@(ViewBag.OnResultExecuted)</p>
+</body>
+</html>

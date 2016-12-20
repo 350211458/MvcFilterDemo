@@ -1,0 +1,8 @@
+
+----------------------开始--------------------------
+2016-12-20 16:34:17,348 [7] ERROR 异常信息 - 
+异常描述信息：出现异常了
+导致错误的应用程序或对象的名称：MvcFilterDemo
+引发当前异常的方法：System.Web.Mvc.ActionResult Throw()
+堆栈信息：在 MvcFilterDemo.Controllers.HomeController.Throw() 位置 C:\Users\HeroWong\Documents\Visual Studio 2015\Projects\MvcAuth\MvcFilterDemo\Controllers\HomeController.cs:行号 30
+
