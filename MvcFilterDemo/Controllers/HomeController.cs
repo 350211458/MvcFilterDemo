@@ -11,20 +11,20 @@ namespace MvcFilterDemo.Controllers
 {
     public class HomeController : Controller
     {
-        [CustomAuthorize(Users ="HeroWong",Roles ="Admin")]
+        [CustomAuthorize(Users = "HeroWong,bbbbb", Roles = "Admin,User")]
         public string Index()
         {
             return HttpContext.User.Identity.Name;
         }
-        
-        [CustomAuthorize(Users ="HeroWong",Roles ="Admin")]
+
+        [CustomAuthorize(Users = "HeroWong", Roles = "Admin")]
         [CustomActionFilter]
         public ActionResult Welcome(string name)
         {
             ViewBag.Name = name;
             return View();
         }
-        
+
         public ActionResult Throw()
         {
             throw new Exception("出现异常了");
